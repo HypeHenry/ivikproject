@@ -3,6 +3,10 @@
 /* 
 insert messages in to the session 
  */
+session_start();
 
-var_dump($_POST);
+$_SESSION['messages'][] = $_POST;
+
+header('location:index.php');
+exit;
 ?>
