@@ -1,5 +1,5 @@
 <?php 
-include_once 'header.php';
+include_once 'template/header.php';
 
 ?>
         
@@ -18,5 +18,5 @@ include_once 'header.php';
             </form>
         
 <?php 
-include_once 'footer.php';
+include_once 'template/footer.php';
 ?>

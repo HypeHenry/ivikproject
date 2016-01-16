@@ -4,7 +4,7 @@
 this file will show list of messages 
  */
 
-include 'header.php';
+include 'template/header.php';
 session_start();
 
 $id = $_GET['id'];
