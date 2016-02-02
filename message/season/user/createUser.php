@@ -5,12 +5,12 @@ include_once '../template/header.php';
         
             <form method="POST" action="insertUser.php">
                 <div class="form-group">
-                  <label for="user">Title</label>
-                  <input type="text" name="user"class="form-control" id="user" placeholder="user">
+                  <label for="user">Username</label>
+                  <input type="text" name="user" class="form-control" id="user" placeholder="user">
                 </div>
                 
                 <div class="form-group">
-                  <label for="email">Content</label>
+                  <label for="email">E-mail</label>
                   <textarea id="content" name="content" class="form-control"></textarea>
                 </div>
               

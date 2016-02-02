@@ -8,7 +8,7 @@ this file will create message
 <html>
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="../style.css">
         <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
@@ -26,9 +26,9 @@ this file will create message
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                 <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"><a href="index.php">home</a></span>
-                <span class="icon-bar"><a href="create.php">create</a></span>
-                <span class="icon-bar"><a href="reset.php">reset</a></span>
+                <span class="icon-bar"><a href="../message/index.php">Message</a></span>
+                <span class="icon-bar"><a href="../message/createMessage.php">create message</a></span>
+                <span class="icon-bar"><a href="../reset.php">reset</a></span>
               </button>
               <a class="navbar-brand" href="#">ivik-project</a>
             </div>
@@ -36,10 +36,13 @@ this file will create message
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">
-                <li><a href="index.php">home</a></li>
-                <li><a href="create.php">create</a></li>
-                <li><a href="reset.php">reset</a></li>
+                <li><a href="../message/index.php">Message</a></li>
+                <li><a href="../message/createMessage.php">create Message</a></li>
+                  <li><a href="../user/index.php">User</a></li>
+                  <li><a href="../user/createUser.php">create User</a></li>
+                <li><a href="../reset.php">reset</a></li>
               </ul>
+
             <p class="navbar-text navbar-right">Signed in as <a href="#" class="navbar-link">Henry Barima</a></p>
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
