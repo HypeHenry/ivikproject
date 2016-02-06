@@ -46,28 +46,28 @@ catch(PDOexception $e)
 ?>
 
 <html
-    <body>
-    <form action="index.php" method="post">
-        <label>Albumcode</label><br>
-        <input type="text" name="albumcode" value=""><br>
-        <br />
+<body>
+<form action="index.php" method="post">
+    <label>Albumcode</label><br>
+    <input type="text" name="albumcode" value=""><br>
+    <br />
 
-        <label>titel</label><br>
-        <input type="text" name="titel" value=""><br>
-        <br />
+    <label>titel</label><br>
+    <input type="text" name="titel" value=""><br>
+    <br />
 
-        <label>artiest</label><br>
-        <input type="text" name="artiest" value=""><br>
-        <br />
+    <label>artiest</label><br>
+    <input type="text" name="artiest" value=""><br>
+    <br />
 
-        <label>genre</label><br>
-        <input type="text" name="genre" value=""><br>
-        <br />
+    <label>genre</label><br>
+    <input type="text" name="genre" value=""><br>
+    <br />
 
-        <label>prijs</label><br>
-        <input type="text" name="prijs" value="">
-        <br />
+    <label>prijs</label><br>
+    <input type="text" name="prijs" value="">
+    <br />
 
-        <button type="submit">submit</button>
-    </form>
-    </body>
+    <button type="submit">submit</button>
+</form>
+</body>
