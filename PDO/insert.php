@@ -3,8 +3,9 @@
  * Created by PhpStorm.
  * User: henrymacbook1
  * Date: 06-02-16
- * Time: 10:07
+ * Time: 11:00
  */
+
 
 $host       =   'localhost';
 $dbname     =   'mp3shop';

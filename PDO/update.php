@@ -3,8 +3,9 @@
  * Created by PhpStorm.
  * User: henrymacbook1
  * Date: 06-02-16
- * Time: 10:07
+ * Time: 10:46
  */
+
 
 $host       =   'localhost';
 $dbname     =   'mp3shop';
@@ -20,23 +21,17 @@ try // try to connect
     // set PDO error mode
     $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-    // Get all records from the user table
-    $sql = "SELECT * FROM album";
-    $results = $db->query($sql);
-
-    $stmt = $db->query($sql, PDO::FETCH_ASSOC);
-
-    // Test it
-    foreach($stmt as $row)
-    {
-        echo $row['albumcode']. ' - ' . $row['titel']. '<br />';
+    // Get update records from the album table
+    $sql = "UPDATE album SET genre = 'rap' WHERE albumcode = 'A2003'";
+    $affectedRows = $db->exec($sql);
 
 
-    }
+
+    // test the result
+    echo $affectedRows;
 }
 catch (PDOException $e)
 {
     echo $e->getMessage();
 
 }
-
