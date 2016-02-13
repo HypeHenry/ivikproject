@@ -20,6 +20,7 @@ $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 try{
     var_dump($_POST);
+    // TODO Maak update
     $sql = "INSERT INTO album( albumcode, titel, artiest, genre, prijs)
             VALUES (:albumcode, :titel, :artiest, :genre, :prijs)";
 
