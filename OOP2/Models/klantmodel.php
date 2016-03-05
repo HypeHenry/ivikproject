@@ -1,30 +1,26 @@
 <?php
 
-$host       =   'localhost';
-$dbname     =   'mp3shop';
-$user       =   'root';
-$password   =   'root';
 
-$db = new PDO('mysql:host=' . $host . ';dbname=' . $dbname . '', $user, $password);
+
+$db =
 
 // set PDO error mode
 $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-class Klant
-{
+class Klant{
 
-    public $klantnr;
-    public $naam;
-    public $adres;
-    public $postcode;
-    public $woonplaats;
+    public $klantnr;
+    public $naam;
+    public $adres;
+    public $postcode;
+    public $woontplaats;
 
+public function __construct(){
+    $this->conn = new PDO('mysql:host=localhost;dbname=mp3shop', 'root', 'root');
 
-    public function __construct($klantnr, $naam, $adres, $postcode, $woonplaats){
-        $this->klantnr     = $klantnr;
-        $this->naam         = $naam;
-        $this->adres        = $adres;
-        $this->postcode     = $postcode;
-        $this->woonplaats   = $woonplaats;
-    }
+}
+
+    public function getklant(){
+        return;
+    }
 }
