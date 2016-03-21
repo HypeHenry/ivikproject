@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4468fce-1d4b-439b-87ee-0b556d4f993f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/symfony/my_project/src/Henry/MagazineBundle/Resources/public/css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/my_project/src/Henry/MagazineBundle/Entity/Issue.php" afterPath="$PROJECT_DIR$/symfony/my_project/src/Henry/MagazineBundle/Entity/Issue.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/my_project/src/Henry/MagazineBundle/Controller/IssueController.php" afterPath="$PROJECT_DIR$/symfony/my_project/src/Henry/MagazineBundle/Controller/IssueController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/my_project/src/Henry/MagazineBundle/Form/IssueType.php" afterPath="$PROJECT_DIR$/symfony/my_project/src/Henry/MagazineBundle/Form/IssueType.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/my_project/src/Henry/MagazineBundle/Entity/Publication.php" afterPath="$PROJECT_DIR$/symfony/my_project/src/Henry/MagazineBundle/Entity/Publication.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/my_project/app/SymfonyRequirements.php" afterPath="$PROJECT_DIR$/symfony/my_project/app/SymfonyRequirements.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/my_project/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/symfony/my_project/app/Resources/views/base.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/my_project/app/check.php" afterPath="$PROJECT_DIR$/symfony/my_project/app/check.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/my_project/composer.json" afterPath="$PROJECT_DIR$/symfony/my_project/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/my_project/composer.lock" afterPath="$PROJECT_DIR$/symfony/my_project/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony/my_project/src/Henry/MagazineBundle/Resources/views/Issue/index.html.twig" afterPath="$PROJECT_DIR$/symfony/my_project/src/Henry/MagazineBundle/Resources/views/Issue/index.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/.idea/ivik4.iml" afterPath="$PROJECT_DIR$/mvc/.idea/ivik4.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ivikproject.iml" afterPath="$PROJECT_DIR$/.idea/ivikproject.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/.idea/vcs.xml" afterPath="$PROJECT_DIR$/mvc/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/.idea/workspace.xml" afterPath="$PROJECT_DIR$/mvc/.idea/workspace.xml" />
     </list>
     <ignored path="ivikproject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -133,7 +118,7 @@
       <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/symfony/my_project/src/Henry/MagazineBundle/Resources/views/Issue/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6566901">
+            <state vertical-scroll-proportion="0.77227724">
               <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
               <folding />
             </state>
@@ -753,7 +738,13 @@
       <option name="project" value="LOCAL" />
       <updated>1455355336732</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="symfony 2 CRUD">
+      <created>1458549072434</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1458549072434</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -767,22 +758,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29971388" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932693" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32891566" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25480768" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29971388" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25480768" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932693" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -830,7 +821,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Session" />
     <MESSAGE value="lit" />
-    <option name="LAST_COMMIT_MESSAGE" value="lit" />
+    <MESSAGE value="symfony 2 CRUD" />
+    <option name="LAST_COMMIT_MESSAGE" value="symfony 2 CRUD" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1217,7 +1209,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/symfony/my_project/src/Henry/MagazineBundle/Resources/views/Issue/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6566901">
+        <state vertical-scroll-proportion="0.77227724">
           <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
           <folding />
         </state>
