@@ -4,7 +4,8 @@ namespace Henry\MagazineBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 use Doctrine\Common\Collections\ArrayCollection;
-
+use Symfony\Component\Validator\Constraints as Assert;
+use Symfony\Component\HttpFoundation\File\UploadedFile;
 /**
  * Issue
  *
@@ -35,6 +36,11 @@ class Issue
      * @var integer
      *
      * @ORM\Column(name="number", type="integer")
+     *
+     * @Assert\Range(
+     *  min = 1,
+     *  minMessage = "You'll need to specify issue 1 or higher"
+     * )
      */
     private $number;
 
@@ -48,7 +54,7 @@ class Issue
     /**
      * @var string
      *
-     * @ORM\Column(name="cover", type="string", length=255)
+     * @ORM\Column(name="cover", type="string", length=255, nullable=true)
      */
     private $cover;
 
@@ -153,5 +159,100 @@ class Issue
     public function getPublication()
     {
         return $this->publication;
+    }
+
+    /**
+     * Get web path to Upload directory
+     *
+     * @return string
+     *  Relative Path.
+     */
+    protected function getUploadPath()
+    {
+        return 'uploads/covers';
+    }
+    /**
+     * Get absolute path to upload directory.
+     *
+     * @return string
+     *  Absolute path.
+     */
+    protected function getUploadAbsolutePath()
+    {
+        return __DIR__ . '/../../../../web/' . $this->getUploadPath();
+    }
+
+    /**
+     * Get web path to a cover
+     *
+     * @return null|string
+     *  Relative path.
+     */
+    public function getCoverWeb()
+    {
+        return NULL === $this->getCover()
+            ? NULL
+            : $this->getUploadPath() . '/' . $this->getCover();
+    }
+
+    /**
+     * Get web path to a cover
+     *
+     * @return null|string
+     *  Absolute path.
+     */
+    public function getCoverAbsolute()
+    {
+        return NULL === $this->getCover()
+            ? NULL
+            : $this->getUploadAbsolutePath() . '/' . $this->getCover();
+    }
+    /**
+     * @Assert\File(maxSize="1000000")
+     */
+    private $file;
+
+    /**
+     * Sets file.
+     *
+     * @param \Symfony\Component\HttpFoundation\File\UploadedFile $file
+     */
+    public function setFile(UploadedFile $file = NULL)
+    {
+        $this->file = $file;
+    }
+
+    /**
+     * Get File
+     *
+     * @return uploadedFile
+     */
+    public function getFile()
+    {
+        return $this->file;
+    }
+
+    public function upload()
+    {
+        // file property can be empty
+        if(NULL === $this->getFile())
+        {
+            return;
+        }
+
+        $filename = $this->getFile()->getClientOriginalName();
+
+        // Move the uploaded file to target directory using orginale name.
+
+        $this->getFile()->move(
+            $this->getUploadAbsolutePath(),
+            $filename);
+
+        //set the cover
+        $this->setCover($filename);
+
+        //cleanup
+        $this->setFile();
+
     }
 }

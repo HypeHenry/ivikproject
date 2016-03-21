@@ -107,4 +107,15 @@ class Publication
     {
         return $this->issues;
     }
+
+    /**
+     * render a Publication as a string
+     *
+     * @return string
+     */
+
+    public function __toString()
+    {
+        return $this->getName();
+    }
 }
